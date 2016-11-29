@@ -1,0 +1,12 @@
+#screenclock {
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	font-size: 30px;
+	background-color: rgba(133,150,150,0.9);
+	color: rgb(255,255,255);
+	font-family:"Microsoft YaHei";
+	z-index: 100000;
+	padding: 10px;
+	border-radius: 4px;
+}
