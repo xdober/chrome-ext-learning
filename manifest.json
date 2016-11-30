@@ -3,7 +3,7 @@
 
 	"name": "Screen Time",
 	"description": "This extension display time on screen.",
-	"version": "1.0",
+	"version": "1.0.1",
 	"background": {"scripts": ["js/background.js"]},
 	"icons": {
 		"128": "imgs/icon128.png"

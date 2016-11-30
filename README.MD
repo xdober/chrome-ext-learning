@@ -1,4 +1,8 @@
 # A simple chrome extension
+## version 1.0.1 update:  
++ add a fixed time box on over the browser window.  
++ [bugs] some versins of chrome cannot display the badge completely.
+
 ## features
 + It can display time on the extension icon.
 + And when clicked, a popup view displays the time still.
