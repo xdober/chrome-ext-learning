@@ -1,6 +1,10 @@
 # A simple chrome extension
+
+## version 1.1.0 update  
++ now you can drag and drop the time box  
+
 ## version 1.0.1 update:  
-+ add a fixed time box on over the browser window.  
++ add a fixed time box over the browser window.  
 + [bugs] some versins of chrome cannot display the badge completely.
 
 ## features
