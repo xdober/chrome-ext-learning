@@ -1,10 +1,9 @@
-function startTime(){
+function updateDOM(){
   var today = new Date()
   var h = today.getHours()
   var m = today.getMinutes()
   m = checkTime(m)
-	chrome.browserAction.setBadgeText({text: h+":"+m})
-  t = setTimeout(function(){startTime()}, 2000)
+  chrome.browserAction.setBadgeText({text: h+":"+m})
 }
 function checkTime(i) {
   if(i<10) {
@@ -12,4 +11,6 @@ function checkTime(i) {
   }
   return i
 }
-startTime()
+setInterval(function(){
+    updateDOM();
+},2000);
